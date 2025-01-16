@@ -1,5 +1,5 @@
-# DataStewardAgent_IKC
-# Data Steward  Agent 
+
+# Data Steward Agent 
 
 This repository contains a Python-based system as a starting point for creating a data steward agent for data governance tools
 
@@ -19,14 +19,17 @@ This repository contains a Python-based system as a starting point for creating 
    git clone https://github.com/ijgitsh/DataStewardAgent_IKC.git
    cd DataStewardAgent_IKC
 
-2-pip install -r requirements.txt
-
+2- Install the requirements
+   ```bash
+   pip install -r requirements.txt
+   ```
 3-Set environment variables
    ```bash
    os.environ["OPENAI_API_KEY"] = ""
    os.environ["GOVERNANCE_API_KEY"] = ""
    os.environ["GOVERNANCE_API_URL"] = ""
    ```
+## Run
 4- run the script   
    ```bash
     python datastewardagent.py
